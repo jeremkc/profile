@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+background-color: #dae8d8;
+font-family: 'PT Sans';
+color: midnightblue;
+font-size: 16px;
+line-height: 16px;
+height: 100vh;
+}
+
+
+
+h1 {
+  color:tomato;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 32px;
+  line-height: 16px;
+  text-align: center;
+}
+
+h3 {
+  color: #233122;
+  text-align: center;
+}
+
+a:hover {
+  color:blueviolet;
+  text-decoration: underline;
+}
+
+
+.card {
+  background: ivory;
+  border: 100px;
+  border-radius: 20px;
+  box-shadow: darkgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+
+}
+
+ul{
+  padding:0px;
+}
